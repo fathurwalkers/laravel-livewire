@@ -1,12 +1,13 @@
 <div>
-    <form action="#">
+    <form wire:submit.prevent="store">
         <div class="form-group">
             <div class="form-row">
                 <div class="col">
-                    <input type="text" name="" id="" class="form-control" placeholder="Name..">
+                    <input wire:model="name" type="text" name="" id="" class="form-control" placeholder="Name..">
                 </div>
                 <div class="col">
-                    <input type="text" name="" id="" class="form-control" placeholder="Phone number..">
+                    <input wire:model="phone" type="text" name="" id="" class="form-control"
+                        placeholder="Phone number..">
                 </div>
             </div>
         </div>
