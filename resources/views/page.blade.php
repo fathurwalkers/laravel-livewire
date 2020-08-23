@@ -13,8 +13,8 @@
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
-            <div class="card mt-3">
-                <div class="card-header">Contact Information</div>
+            <div class="card mt-3 border-dark">
+                <div class="card-header bg-dark text-white border-dark">Contact Information</div>
                 <div class="card-body mt-1">
                     <livewire:contact-index></livewire:contact-index>
                 </div>

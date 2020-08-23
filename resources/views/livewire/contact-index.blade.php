@@ -1,5 +1,10 @@
 <div>
-    <table class="table">
+
+    <livewire:contact-create></livewire:contact-create>
+
+    <hr>
+
+    <table class="table border-dark">
         <thead class="thead-dark">
             <tr>
                 <th scope="col">#</th>
@@ -8,7 +13,7 @@
                 <th scope="col">Action</th>
             </tr>
         </thead>
-        <tbody>
+        <tbody class="border-dark">
             @foreach ($contacts as $contact)
             <tr>
                 <th scope="row">{{ $loop->iteration }}</th>
