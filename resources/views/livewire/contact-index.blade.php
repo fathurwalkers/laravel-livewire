@@ -1,5 +1,11 @@
 <div>
 
+    @if (session()->has('berhasil_store'))
+    <div class="alert alert-success">
+        {{ session('berhasil_store') }}
+    </div>
+    @endif
+
     <livewire:contact-create></livewire:contact-create>
 
     <hr>
